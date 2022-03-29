@@ -296,6 +296,7 @@
           </div>
         </div>
       </div>
+    
       
   <!-- Footer -->
   <footer id="main-footer" class="bg-dark text-white mt-5 p-5 ">
@@ -309,6 +310,55 @@
     </div>
   </footer>
 <!-- Se carga solo cuando se de click en el boton -->
+<div class="modal fade" id="agregarCupon" tabindex="-1" role="dialog" aria-labelledby="EjemploModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="EjemploModal">
+                  Ingresar un nuevo Cupón
+              </h5>
+              <button class="close" data-bs-dismiss="modal" aria-label="close" >
+                  <span aria-hidden="true" > &times;</span>
+              </button>
+
+          </div>
+          <!-- Cuerpo del Modal -->
+          <div class="modal-body">
+              <form class="" action="">
+                  <div class="form-group">
+                      <label for="nombre"> Cupón </label>
+                      <input type="text" class="form-control" placeholder="Ingrese un nuevo cupón de descuento" >
+                  </div>
+
+              
+                  <div class="form-group">
+                    <label for="precio"> Fecha Incial </label>
+                    <input type="date" class="form-control" placeholder="Ingrese fecha inicial" >
+                </div>
+
+                  <div class="form-group">
+                      <label for="descripcion"> Fecha caducidad </label>
+                      <input type="date" class="form-control" placeholder="Ingrese fecha inicial" >
+                  </div>
+                  <div class="form-group">
+                    <label for="descripcion"> Descuento </label>
+                    <input type="number" class="form-control" placeholder="Ingrese el descuento" >
+                </div>
+              </form>
+          </div>
+          <!-- Footer -->
+          <div class="modal-footer">
+              <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">
+                  Cerrar
+              </button>
+              <button type="submit"  class="btn btn-primary">
+                 <i  class="fas fa-save"></i>
+                  Guardar
+              </button>                       
+          </div>
+      </div>
+  </div>
+</div>
 
 
     <!-- Bootstrap JavaScript Libraries -->
